@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.styles = {
-      'font-size': '2rem',
+      'font-size': this.isCorrect ? '2rem' : '8rem',
       'color': 'red'
     }
   }
